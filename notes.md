@@ -25,3 +25,27 @@
 - MongoDB is an open-source, cross-platform, document-oriented database program that is designed to store a large scale of data and allows us to work with that data efficiently.
 - It is a `Nosql` database which means the data in mongodb are not stored in the form of table.
 - MongoDB uses a document storage format called `BSON`(Binary JSON), which is a binary format of JSON document.
+- `BSON` document making mongoDB practically well-suited for handling large volume of unstructured and sending structured data.
+
+## Features of MongoDB
+
+- **Queries**
+  - MongoDB supports document-based query language, it is wide range of operations including CRUD(create, read, update and delete) operations, aggregation, text search, geospatial queries etc.
+- **Indexing**
+  - Fields in a MongoDB document can be indexed with primary and secondary indices.
+  - Indexing improves query performance and allows efficient data retrieval.
+- **Replication**
+  - Replication is the process of Synchronizing data accross multiple servers to ensure high availability, fault tolerance, and data redundancy.
+- **Server-side JavaScript execution**
+  - Javascript can be used in queries, aggregation function (such as MapReduce) and send directly to the database to be exeucted.
+- **Schema-Less Database**
+  - MongoDB is a document database in swhich one collection holds different documents.
+  - Number of fields, Content and size of the document can differ from one document to antoehr.
+
+## Where to use MongoDB
+
+- Big Data
+- Data Hub
+- User Data Management
+- Mobile and Social Infrastructure
+- Content Management and delivery
